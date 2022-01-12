@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  list-style: none;
+}
+.navbar {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  display:flex;
+  gap:10px;
+  text-transform: uppercase;
+  
+}
+
+.menu li {
+  text-shadow:-3px 0px #ff0000;
+  transform: skew(-5deg);
+}
+
+.menu li:hover {
+  text-shadow:-1px 0px #ff0000;
+  transform: skew(0deg);
+}
+
